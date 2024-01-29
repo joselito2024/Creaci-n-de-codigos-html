@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title>mi primera pagina web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>PRODUCTO</th>
+                <th>PRECIO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sontuchson</td>
+                <td>$10.000</td>
+            </tr>
+            <tr>
+                <td>cargadorson</td>
+                <td>$7.000</td>
+            </tr>
+            <tr>
+                <td>cargadorson para iphone</td>
+                <td>$20.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>total</td>
+            <td>$37.000</td>
+        </tfoot>
+    </table>
+    <!-- ul son lista no ordenada -->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <!-- ol son lista  ordenada -->
+    <ol>
+        <li value="90">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+       <input value="Isaac" type="text" id="nombre" name="nombre" placeholder="NOMBRE" /> 
+       <br>
+       <label for="apellido">Apellido</label>
+       <input value="Henao" type="text" id="apellido" name="apellido" placeholder="APELLIDOS" /> 
+       <br>
+       <label for="comentario">comentario</label>
+       <textarea cols="50" rows="10" id="comentario" placeholder="ingrsone comentario " name="comentario">verdadero amor</textarea>
+       <br>
+       <button type="button">JS</button>
+       <button type="rsonet">RsonET</button>
+       <button type="submit">SUBMIT</button>
+    </form>
+    <h1>MI PRIMER TITULO</h1>
+    <h2>MI SEGUNDO TITULO</h2>
+    <h3>MI TERCER TITULO</h3>
+    <h4>MI CUARTO TITULO</h4>
+    <h5>MI QUINTO TITULO</h5>
+    <h6>ATLETICO NACIONAL</h6>
+    <P>Atletico nacional rey de copas</P>
+    <p>Futbol profsonional colombiano</p>
+    <hr>
+    <h2>OTRO TITULO O HEADING</h2>
+    <P>parrafo mas extenso para mostrar un <span style="color: blue;">ejemplo de la etiqueta</span>
+        <br><br> span en la pagina web</P>
+    <!-- texto o codigo no sera interpretado
+    ni mostrado en el navegador -->
+    <a target="_blank"  href="https://www.google.com.co">ir a google</a>
+    <img src="img/dsoncarga.jpg" height="500" width="500"/>
+</body>
+</html>
